@@ -130,7 +130,7 @@ i:before {
 ============================================================================================ */
 @media (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1920px;
   }
 }
 
@@ -1788,11 +1788,11 @@ i:before {
 .footer_widgets_area {
   background: #131627;
   overflow: hidden;
-  padding: 80px 0px;
+  padding: 10px 0px;
 }
 
 .f_w_title {
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .f_w_title h3 {
@@ -1800,6 +1800,10 @@ i:before {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
+}
+
+.subscribe_widget {
+  margin-left: 120px;
 }
 
 .subscribe_widget p {
@@ -1920,11 +1924,11 @@ i:before {
 }
 
 .categories_widget {
-  margin-left: 70px;
+  margin-left: 120px;
 }
 
 .categories_widget ul {
-  width: calc(100% / 2);
+  /* width: calc(100% / 2); */
   float: left;
   margin-top: -4px;
 }
@@ -1951,7 +1955,7 @@ i:before {
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
-}
+} */
 
 .categories_widget ul li:hover a {
   padding-left: 15px;
@@ -1963,7 +1967,7 @@ i:before {
 }
 
 .contact_widget {
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .contact_widget a, .contact_widget p, .contact_widget h6 {
@@ -1980,7 +1984,7 @@ i:before {
 }
 
 .contact_widget p {
-  padding: 23px 0px;
+  padding: 15px 0px;
 }
 
 .copy_right_area {
