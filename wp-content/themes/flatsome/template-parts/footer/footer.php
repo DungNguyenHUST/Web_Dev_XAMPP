@@ -21,4 +21,6 @@
 
 <?php do_action('flatsome_after_footer'); ?>
 
+<?php get_template_part('template-parts/footer/footer-daophucsen'); ?>
+
 <?php get_template_part('template-parts/footer/footer-absolute'); ?>
